@@ -1,0 +1,48 @@
+{
+  "name": "fow-ie",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "fowie": "./bin/fow-ie.js"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "len.li",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "console-polyfill": "^0.3.0",
+    "css-loader": "^0.28.10",
+    "es3ify-loader": "^0.2.0",
+    "es3ify-webpack-plugin": "0.0.1",
+    "es5-shim": "^4.5.10",
+    "extend": "^3.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fow-http": "^1.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "liftoff": "^2.5.0",
+    "microtime": "^2.1.7",
+    "minimist": "^1.2.0",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2",
+    "zeptojs": "^1.1.4"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "registry": "http://192.168.2.228:8081/repository/limin-npm-hosted/"
+  }
+}
